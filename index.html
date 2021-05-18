@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+
+	<title>Gallery | Band Template</title>
+	
+	<title>Gallery | Band Template</title>
+	<!-- Loading third party fonts -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">
+	<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!-- Loading main css file -->
+	<link rel="stylesheet" href="style.css">
+	<!-- <link rel="stylesheet" href="style2.css"> -->
+	
+	
+	<!--[if lt IE 9]>
+	<script src="js/ie-support/html5.js"></script>
+	<script src="js/ie-support/respond.js"></script>
+	<![endif]-->
+	 <!-- Load icon library -->
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	 <!-- favicon -->
+	 <link rel="shortcut icon" href="./Posters/favicon.jpeg" type="image/x-icon" />
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	 <!-- Font awesome link -->
+	 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+	 integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+	  <!-- connect sdk -->
+	  <script src="//connect.soundcloud.com/sdk.js"></script>
+	<style>
+		body {
+			background-image: url(slide-3@2x.jpg);
+			background-color: rgb(229, 233, 235);
+
+		}
+
+		/* Style the header */
+		.header {
+			background-color: rgb(236, 241, 241);
+			padding: 50px;
+
+			text-align: center;
+		}
+
+
+		/* Style the top navigation bar */
+		.topnav {
+			overflow: hidden;
+			background-color: white;
+
+		}
+
+		/* Style the topnav links */
+		.topnav a {
+			float: left;
+			display: block;
+			color: black;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		/* Change color on hover */
+		.topnav a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+	</style>
+
+
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="topnav">
+			<a href="#" style="background-color: yellow;">music<b>Trackr</b></a>
+			<a href="">Home</a>
+			<a href="home.html" target="_top">Fav</a>
+			<a href="signuppage.html" target="_self" style="float:right">Sign up</a>
+			<a href="login.html" target="_self" style="float:right">Login</a>
+		</div>
+	</nav>
+
+	<div id="site-content">
+
+
+
+		<main class="main-content">
+			<div class="fullwidth-block gallery">
+				<div class="container">
+					<div class="content fullwidth">
+
+						<h2 class="entry-title" style="color: black;">Tracks</h2>
+						<div class="filter-links filterable-nav">
+							<select class="mobile-filter">
+								<option value="*">Show all</option>
+								<option value=".concert">Concert</option>
+								<option value=".band">Band</option>
+								<option value=".stuff">Stuff</option>
+							</select>
+							<a href="#" class="current" data-filter="*">Show all</a>
+							<a href="#" data-filter=".concert">A.R rahman </a>
+							<a href="#" data-filter=".band">G.v peragash</a>
+							<a href="#" data-filter=".stuff">Yuvan </a>
+						</div>
+						<div class="filterable-items">
+							<div class="filterable-item concert">
+								<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/108851501&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/anas_malik1992" title="Ānáş Mãlik Songs" target="_blank" style="color: #cccccc; text-decoration: none;">Ānáş Mãlik Songs</a> · <a href="https://soundcloud.com/anas_malik1992/lungi-dance-chennai-express" title="Lungi Dance (chennai express) 2013" target="_blank" style="color: #cccccc; text-decoration: none;">Lungi Dance (chennai express) 2013</a></div>
+							
+								<center>
+									<button class="btn btn-md btn-primary " id="start"><i
+											class="fas fa-play"></i>Play</button>
+									<button class="btn btn-md btn-danger stop" id="stop"><i
+											class="far fa-pause-circle"></i>Pause</button>
+
+								</center>
+
+
+							</div>
+							<div class="filterable-item concert">
+								<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/432918471&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/bejoy-varghese" title="Malayalam , Tamil , Hindi New Hit Songs ✅" target="_blank" style="color: #cccccc; text-decoration: none;">Malayalam , Tamil , Hindi New Hit Songs ✅</a> · <a href="https://soundcloud.com/bejoy-varghese/jeevamshamayi-theevandi" title="Jeevamshamayi - Theevandi" target="_blank" style="color: #cccccc; text-decoration: none;">Jeevamshamayi - Theevandi</a></div>
+								<center>
+									<button class="btn btn-md btn-primary " id="start1"><i
+											class="fas fa-play"></i>Play</button>
+									<button class="btn btn-md btn-danger stop" id="stop1"><i
+											class="far fa-pause-circle"></i>Pause</button>
+
+								</center>
+
+							</div>
+							<div class="filterable-item stuff">
+								<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+									src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/345472022&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+								<div
+									style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+									<a href="https://soundcloud.com/artamilsong" title="A.R.Rahman Tamil Songs"
+										target="_blank" style="color: #cccccc; text-decoration: none;">A.R.Rahman Tamil
+										Songs</a> · <a href="https://soundcloud.com/artamilsong/puduvellai-mazhai"
+										title="PuduVellai Mazhai" target="_blank"
+										style="color: #cccccc; text-decoration: none;">PuduVellai Mazhai</a></div>
+										<center>
+											<button class="btn btn-md btn-primary " id="start2"><i
+													class="fas fa-play"></i>Play</button>
+											<button class="btn btn-md btn-danger stop" id="stop2"><i
+													class="far fa-pause-circle"></i>Pause</button>
+		
+										</center>
+		
+							</div>
+							<div class="filterable-item concert">
+								<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+									src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/517722948&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+								<div
+									style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+									<a href="https://soundcloud.com/arrtamilsong1" title="A.R.Rahman Tamil Songs"
+										target="_blank" style="color: #cccccc; text-decoration: none;">A.R.Rahman Tamil
+										Songs</a> · <a href="https://soundcloud.com/arrtamilsong1/enna-solla-pogirai"
+										title="Enna Solla Pogirai" target="_blank"
+										style="color: #cccccc; text-decoration: none;">Enna Solla Pogirai</a></div>
+										<center>
+											<button class="btn btn-md btn-primary " id="start3"><i
+													class="fas fa-play"></i>Play</button>
+											<button class="btn btn-md btn-danger stop" id="stop3"><i
+													class="far fa-pause-circle"></i>Pause</button>
+		
+										</center>
+		
+							</div>
+							<div class="filterable-item band">
+								<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+									src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/57683966&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+								<div
+									style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+									<a href="https://soundcloud.com/jaya-raman-1" title="Jaya Raman 1" target="_blank"
+										style="color: #cccccc; text-decoration: none;">Jaya Raman 1</a> · <a
+										href="https://soundcloud.com/jaya-raman-1/nathiye-nathiye-1"
+										title="Nathiye Nathiye" target="_blank"
+										style="color: #cccccc; text-decoration: none;">Nathiye Nathiye</a></div>
+										<center>
+											<button class="btn btn-md btn-primary " id="start5"><i
+													class="fas fa-play"></i>Play</button>
+											<button class="btn btn-md btn-danger stop" id="stop5"><i
+													class="far fa-pause-circle"></i>Pause</button>
+		
+										</center>
+		
+									</div>
+							<div class="filterable-item stuff">
+								<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+									src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/224279373&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+								<div
+									style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+									<a href="https://soundcloud.com/ssradiolive" title="SSLIVE" target="_blank"
+										style="color: #cccccc; text-decoration: none;">SSLIVE</a> · <a
+										href="https://soundcloud.com/ssradiolive/evano-oruvan" title="Evano Oruvan"
+										target="_blank" style="color: #cccccc; text-decoration: none;">Evano Oruvan</a>
+										<center>
+											<button class="btn btn-md btn-primary " id="start6"><i
+													class="fas fa-play"></i>Play</button>
+											<button class="btn btn-md btn-danger stop" id="stop6"><i
+													class="far fa-pause-circle"></i>Pause</button>
+		
+										</center>
+		
+									</div>
+							</div>
+							<div class="filterable-item concert">
+								<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+									src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/239137289&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+								<div
+									style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+									<a href="https://soundcloud.com/juvanic" title="juvanic ∞" target="_blank"
+										style="color: #cccccc; text-decoration: none;">juvanic ∞</a> · <a
+										href="https://soundcloud.com/juvanic/pookal-pookum-tamilhindi-mashup-cover-piri-musiq-ishwaria-chandra-vgs-music"
+										title="Pookal Pookum Tamil &amp; Hindi Mashup Cover ∞ Piri Musiq, Ishwaria Chandra &amp; VGS Music"
+										target="_blank" style="color: #cccccc; text-decoration: none;">Pookal Pookum
+										Tamil &amp; Hindi Mashup Cover ∞ Piri Musiq, Ishwaria Chandra &amp; VGS
+										Music</a></div>
+										<center>
+											<button class="btn btn-md btn-primary " id="start7"><i
+													class="fas fa-play"></i>Play</button>
+											<button class="btn btn-md btn-danger stop" id="stop7"><i
+													class="far fa-pause-circle"></i>Pause</button>
+		
+										</center>
+		
+									</div>
+							<div class="filterable-item band">
+								<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+									src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/240063401&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+								<div
+									style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+									<a href="https://soundcloud.com/maheshkk" title="MaheshKK" target="_blank"
+										style="color: #cccccc; text-decoration: none;">MaheshKK</a> · <a
+										href="https://soundcloud.com/maheshkk/yaar-intha-devathai"
+										title="Yaar Intha Devathai" target="_blank"
+										style="color: #cccccc; text-decoration: none;">Yaar Intha Devathai</a></div>
+										<center>
+											<button class="btn btn-md btn-primary " id="start8"><i
+													class="fas fa-play"></i>Play</button>
+											<button class="btn btn-md btn-danger stop" id="stop8"><i
+													class="far fa-pause-circle"></i>Pause</button>
+		
+										</center>
+		
+									</div>
+							<div class="filterable-item band">
+								<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+									src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/182071770&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+								<div
+									style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+									<a href="https://soundcloud.com/akshitha-venkatesan-1" title="Akshitha Venkatesan"
+										target="_blank" style="color: #cccccc; text-decoration: none;">Akshitha
+										Venkatesan</a> · <a
+										href="https://soundcloud.com/akshitha-venkatesan-1/sets/manasellam-mazhaye"
+										title="manasellam mazhaye" target="_blank"
+										style="color: #cccccc; text-decoration: none;">manasellam mazhaye</a></div>
+										<center>
+											<button class="btn btn-md btn-primary " id="start9"><i
+													class="fas fa-play"></i>Play</button>
+											<button class="btn btn-md btn-danger stop" id="stop9"><i
+													class="far fa-pause-circle"></i>Pause</button>
+		
+										</center>
+		
+									</div>
+							<div class="filterable-item stuff">
+								<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+									src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/52447434&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+								<div
+									style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+									<a href="https://soundcloud.com/majeeds" title="majeeds" target="_blank"
+										style="color: #cccccc; text-decoration: none;">majeeds</a> · <a
+										href="https://soundcloud.com/majeeds/sets/oru-padhi-kanavu"
+										title="oru padhi kanavu" target="_blank"
+										style="color: #cccccc; text-decoration: none;">oru padhi kanavu</a></div>
+										<center>
+											<button class="btn btn-md btn-primary " id="start10"><i
+													class="fas fa-play"></i>Play</button>
+											<button class="btn btn-md btn-danger stop" id="stop10"><i
+													class="far fa-pause-circle"></i>Pause</button>
+		
+										</center>
+		
+									</div>
+							<div class="filterable-item band">
+								<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+									src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/216133717&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+								<div
+									style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+									<a href="https://soundcloud.com/vjjena" title="Vj Jena" target="_blank"
+										style="color: #cccccc; text-decoration: none;">Vj Jena</a> · <a
+										href="https://soundcloud.com/vjjena/dj-jena-kadhal-cricket-electro-rock-mix-thani-oruvan"
+										title="DJ JENA - KADHAL CRICKET *ELECTRO ROCK MiX* THANI ORUVAN" target="_blank"
+										style="color: #cccccc; text-decoration: none;">DJ JENA - KADHAL CRICKET *ELECTRO
+										ROCK MiX* THANI ORUVAN</a></div>
+										<center>
+											<button class="btn btn-md btn-primary " id="start11"><i
+													class="fas fa-play"></i>Play</button>
+											<button class="btn btn-md btn-danger stop" id="stop11"><i
+													class="far fa-pause-circle"></i>Pause</button>
+		
+										</center>
+		
+									</div>
+							<div class="filterable-item stuff">
+								<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+									src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/907513075&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+								<div
+									style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+									<a href="https://soundcloud.com/user-372843377" title="User 372843377"
+										target="_blank" style="color: #cccccc; text-decoration: none;">User
+										372843377</a> · <a
+										href="https://soundcloud.com/user-372843377/vaathi-coming-starmusiq-top"
+										title="Vaathi Coming-StarMusiQ.Top" target="_blank"
+										style="color: #cccccc; text-decoration: none;">Vaathi Coming-StarMusiQ.Top</a>
+										<center>
+											<button class="btn btn-md btn-primary " id="start12"><i
+													class="fas fa-play"></i>Play</button>
+											<button class="btn btn-md btn-danger stop" id="stop12"><i
+													class="far fa-pause-circle"></i>Pause</button>
+		
+										</center>
+		
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> <!-- .testimonial-section -->
+
+
+		</main> <!-- .main-content -->
+
+		<footer class="site-footer">
+			<div class="container">
+				<img src="https://i.pinimg.com/736x/2d/0b/62/2d0b62c8d00a8b689aa5dc9117292a9a.jpg" alt="Site Name"
+					style=" width: 80px; height:80px;">
+
+				<address>
+					<p>ilavalai , jaffna , srilanka . <br><a href="tel:354543543">(+99) 775 532 182</a> <br> <a
+							href="mailto:info@bandname.com">info@musicTrackr.com</a></p>
+				</address>
+				<!-- 					
+					<form action="#" class="newsletter-form">
+						<input type="email" placeholder="Enter your email to join newsletter...">
+						<input type="submit" class="button cut-corner" value="Subscribe">
+					</form> .newsletter-form -->
+
+				<div class="social-links">
+					<a href="www.facebook.com"><i class="fa fa-facebook-square"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-google-plus"></i></a>
+					<a href="#"><i class="fa fa-pinterest"></i></a>
+				</div> <!-- .social-links -->
+
+				<p class="copy">Copyright 2021 musicTrackr. Designed by 2kR18. All right reserved</p>
+			</div>
+		</footer> .site-footer
+
+	</div> <!-- #site-content -->
+
+	<script src="jquery-3.3.1.js"></script>
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="main.js"></script>
+	<script src="js/jquery-1.11.1.min.js"></script>		
+	<script src="js/plugins.js"></script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
